@@ -1,0 +1,88 @@
+/* Style sheet created by: Alex Purser, 9/24/2021 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #E0F0FF; /* set background color to #E0F0FF */
+}
+
+/* Style for the max-width of image */
+img {
+	max-width: 100%; /* set max width to 100% */
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%; /* set width to 100% */
+	margin-left: auto; /* set left margin to auto */
+	margin-right: auto; /* set right margin to auto */
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif; /* set font to Verdana, Arial, serif */
+	font-size: 2em; /* add 2em to font size of the header */
+	margin-top: 0.2em; /* add 0.2em top margin of header */
+	margin-bottom: 0.3em; /* add 0.3em to bottom margin of header */
+	text-align: center; /* center the text in the header */
+	padding: 0.2em; /* add 0.2em padding to header */
+	color: #000066; /* set color to #000066 */
+}
+
+/* Style for the div id banner specifies the text align */
+#banner {
+	text-align: center; /* center the text in the #banner */
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Lucida, "Times New Roman", serif; /* set font to Lucida, "Times New Roman", serif */
+	font-size: 1em; /* set font size to 1em */
+	font-weight: bold; /* set font weight to bold*/
+	text-align: center; /* center the text in the nav */
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0; /* add padding to 0 for all four sides */
+	margin-top: 0.5em; /* add 0.5em to top margin */
+	margin-bottom: 0.5em; /* add 0.5em to bottom margin */
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies, margins and padding for list items within the navigation */
+nav li {
+	background-color: #000066; /* set background color to #000066*/
+	list-style-type: none; /* set list style type to none to remove bullet */
+	margin: 0.4em; /* add 0.4em to margin on all 4 sides */
+	padding: 0.5em; /* add 0.5em to the padding of nav li */
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #FFFFFF; /* set color to #FFFFFF to change text color */
+	text-decoration: none; /* set text decoration to none to remove line */
+}
+
+/* Style for the main specifies a block display, text properties, margins padding, rounded corners, and borders  */
+main {
+	display: block; /* set display to block */
+	font-family: Georgia, "Times New Roman", sans-serif; /* set font to Georgia, "Times New Roman", sans-serif */
+	font-size: 1em; /* set font size to 1em*/
+	margin-top: 0.5em; /* add 0.5em top margin to main */
+	padding: 0.5em; /* add 0.5em of padding on all four sides of the main area */
+	border-radius: 1em; /* set border radius to 1em to round the corners */
+	background-color: #FFFFFF; /* set nav background color to #FFFFFF */
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em; /* set footer font to .70em */
+	text-align: center; /* center the text in the footer */
+	margin-top: 2em; /* set footer top margin to 2em */
+}
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline; /* set display: to inline */
+}

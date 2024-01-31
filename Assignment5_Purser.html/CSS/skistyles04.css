@@ -1,0 +1,53 @@
+/*Alex Purser 9/16/2021*/
+
+body { 
+	   color: #FFFFFF; /* set text color to white */ 
+	   background-color: #C9E4FF; /* set background color to light blue */ 
+	   font-family: Calibri, sans-serif; /* set font to Calibri, or the generic sans-serif font */
+}
+	 
+#outer-wrapper { 
+		width: 90%; /* set width of id="outer-wrapper" to 90% */
+		margin: 0 auto 0 auto; /* center content within id="outer-wrapper" */
+}
+				
+nav, #content, footer { 
+		background-color: #4CA6FF; /* set background color to bright blue */
+		padding: 10px; /* add 10px of padding on all four sides of the wireframe containers */
+}
+
+header { 
+		background-color: #4CA6FF; /* set background color to bright blue */
+		padding: 0% 2% 2% 0%; /* add 2% to the right and bottom of padding of two of the sides of the header area */
+}
+
+footer { 
+		font-size: 0.75em; /* reduce the font size in the footer */
+		text-align: center; /* center the text in the footer */
+}
+	
+img { 
+		float: left; /* float the image to the left */
+}
+
+.rightmargin { 
+		margin-right: 2%; /* add 2% right margin to class="rightmargin" */
+}
+
+h1, h2, h3 { 
+		font-family: Verdana, sans-serif; /* set font to Verdana, or the generic sans-serif font */
+		padding-top: 1%; /* add 1% to the top padding of h1, h2, h3 headers */
+}
+
+li { 
+		list-style-type: none; /* set list-style-type: to none, removes list item markers */
+		display: inline; /* set display: to inline to move lists to same lines */
+}
+
+nav { 
+		background-color: #C9E4FF; /* set nav background color to #C9E4FF */
+}
+
+.clearfloat { 
+		clear: both; /* set clear: to both to remove to float from both sides */
+}
